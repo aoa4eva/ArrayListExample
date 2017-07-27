@@ -6,7 +6,8 @@ public class ArrayListDemo {
 	/**
 	 * This application demonstrates how to add to, remove from, and iterate through arrays in Java, using an enhanced for loop
 	 * @author aoa4eva
-	 * */
+	 * 
+	*/
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
