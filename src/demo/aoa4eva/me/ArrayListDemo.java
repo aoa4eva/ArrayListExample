@@ -12,7 +12,7 @@ public class ArrayListDemo {
 		// TODO Auto-generated method stub
 		
 		//Declare an array list variable 
-		ArrayList <String> myArrayList; 
+		ArrayList <String> myArrayList;
 		
 		//Initialize the array - this can also be done in one line. 
 		myArrayList = new ArrayList <String>();
@@ -53,7 +53,7 @@ public class ArrayListDemo {
 		for(String item:myArrayList)
 		{
 			System.out.println("This is an item in an arraylist:"+item);
-		
+
 		}
 	
 		System.out.println("==========================================================================================================");
