@@ -56,6 +56,7 @@ public class ArrayListDemo {
 
 		}
 	
+	
 		System.out.println("==========================================================================================================");
 		//Using lambda expressions and the for each method in Array Lists
 
@@ -66,6 +67,16 @@ public class ArrayListDemo {
 				}else{
 					System.out.println("This is an item in an arraylist that uses lambda expressions:"+item);
 				}});
+		
+		System.out.println("==========================================================================================================");
+			//Not using lambda expressesions to compare strings
+			        for(String eachString:myArrayList)
+				{
+				    if(eachString.contains("T"))
+				    {
+					System.out.println(eachString+"This string contains a T");
+				    }
+				}
 		
 		System.out.println("==========================================================================================================");
 		//Using lambda expressions and the for each method in Array Lists
